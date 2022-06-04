@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 import { useEffect, useState } from "react";
@@ -67,7 +66,7 @@ function App() {
           </div>
         ))}
       </div>
-      <AmplifySignOut />
+      {/* <AmplifySignOut /> */}
     </div>
   );
 }
