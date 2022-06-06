@@ -1,5 +1,5 @@
 import "./App.css";
-import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
+import { withAuthenticator } from "@aws-amplify/ui-react";
 import { useEffect, useState } from "react";
 import { API } from "aws-amplify";
 import { listNotes } from "./graphql/queries";
